@@ -377,3 +377,4 @@ LogInit: Object subsystem initialized
 [2019.01.09-15.52.57:734][774]LogFileHelpers: Saving map 'DMB_Starter' took 0.157
 [2019.01.09-15.53.04:104][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DMB_Starter_BuiltData" FILE="../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_AssetPipeline/Content/DMB_Starter_BuiltData.uasset" SILENT=true
 [2019.01.09-15.53.04:135][527]LogSavePackage: Moving '../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_AssetPipeline/Saved/DMB_Starter_BuiltData60E2A7D5460C5ECB8BF0138D9A335D64.tmp' to '../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_AssetPipeline/Content/DMB_Starter_BuiltData.uasset'
+[2019.01.09-16.00.56:578][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 2

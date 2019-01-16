@@ -1,4 +1,4 @@
-﻿Log file open, 01/14/19 09:31:35
+﻿Log file open, 01/16/19 08:34:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DMB_IC_WhiteBox001
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.280899
+LogStats: Stats thread started at 0.276414
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.103s to configure plugins.
+LogStreaming: Display: Took  0.094s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -121,7 +121,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line: -EpicPortal  -epicusername="TheHelhound" -epicuserid=f2a0332212b54d10a0d8f76be012fa0c -epiclocale=en-US
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -145,262 +145,857 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.14-16.31.35:472][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-16.31.35:472][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.14-16.31.35:954][  0]LogHAL: Display: Platform has ~ 16 GB [17095413760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.01.14-16.31.35:955][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.01.14-16.31.35:955][  0]LogInit: Going up to parent DeviceProfile []
-[2019.01.14-16.31.35:955][  0]LogInit: Computer: eae-n-026
-[2019.01.14-16.31.35:955][  0]LogInit: User: u1118255
-[2019.01.14-16.31.35:955][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.14-16.31.35:955][  0]LogInit: High frequency timer resolution =3.023438 MHz
-[2019.01.14-16.31.35:955][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.14-16.31.35:955][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.14-16.31.35:955][  0]LogMemory: Process Physical Memory: 99.67 MB used, 99.67 MB peak
-[2019.01.14-16.31.35:955][  0]LogMemory: Process Virtual Memory: 90.96 MB used, 90.96 MB peak
-[2019.01.14-16.31.35:955][  0]LogMemory: Physical Memory: 5990.12 MB used,  10313.34 MB free, 16303.46 MB total
-[2019.01.14-16.31.35:955][  0]LogMemory: Virtual Memory: 4640.71 MB used,  10313.34 MB free, 134217728.00 MB total
-[2019.01.14-16.31.35:969][  0]LogInit: Using OS detected language (en-US).
-[2019.01.14-16.31.35:969][  0]LogInit: Using OS detected locale (en-US).
-[2019.01.14-16.31.35:970][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.01.14-16.31.36:275][  0]LogStreaming: Display: Took  0.306s to InitEngineTextLocalization.
-[2019.01.14-16.31.36:275][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.14-16.31.36:309][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.14-16.31.36:309][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.14-16.31.36:492][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-16.31.36:492][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.14-16.31.36:564][  0]LogD3D11RHI:    0. 'Radeon RX Vega M GH Graphics' (Feature Level 11_0)
-[2019.01.14-16.31.36:564][  0]LogD3D11RHI:       4042/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.01.14-16.31.36:576][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.01.14-16.31.36:576][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.01.14-16.31.36:577][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.14-16.31.36:577][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.14-16.31.36:577][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.14-16.31.36:585][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.14-16.31.36:585][  0]LogD3D11RHI:     GPU DeviceId: 0x694c (for the marketing name, search the web for "GPU Device Id")
-[2019.01.14-16.31.36:585][  0]LogWindows: EnumDisplayDevices:
-[2019.01.14-16.31.36:585][  0]LogWindows:    0. 'Radeon RX Vega M GH Graphics' (P:1 D:1)
-[2019.01.14-16.31.36:586][  0]LogWindows:    1. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-16.31.36:586][  0]LogWindows:    2. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-16.31.36:586][  0]LogWindows:    3. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-16.31.36:586][  0]LogWindows:    4. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-16.31.36:587][  0]LogWindows:    5. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-16.31.36:587][  0]LogWindows:    6. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.01.14-16.31.36:587][  0]LogWindows:    7. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.14-16.31.36:587][  0]LogWindows:    8. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.01.14-16.31.36:587][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:7 
-[2019.01.14-16.31.36:587][  0]LogD3D11RHI:     Adapter Name: Radeon RX Vega M GH Graphics
-[2019.01.14-16.31.36:587][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.1 (internal:24.20.11026.2001, unified:24.20.11026.2001)
-[2019.01.14-16.31.36:587][  0]LogD3D11RHI:      Driver Date: 8-30-2018
-[2019.01.14-16.31.36:587][  0]LogRHI: Texture pool is 2829 MB (70% of 4042 MB)
-[2019.01.14-16.31.36:663][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.14-16.31.36:676][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2019.01.14-16.31.36:678][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Intermediate/Shaders/WorkingDirectory/13136/).
-[2019.01.14-16.31.36:678][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1118255/AppData/Local/Temp/UnrealShaderWorkingDir/2B13B1A74A9FBB5AE867B0AA5AB3A385/'.
-[2019.01.14-16.31.36:919][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.14-16.31.36:931][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.14-16.31.36:942][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.14-16.31.36:954][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.14-16.31.36:966][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.14-16.31.36:978][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.14-16.31.36:989][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.14-16.31.37:000][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.14-16.31.37:006][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:071][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.14-16.31.37:072][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.14-16.31.37:128][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-16.31.37:128][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.14-16.31.37:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-16.31.37:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.14-16.31.37:158][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.14-16.31.37:168][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.14-16.31.37:178][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.14-16.31.37:189][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.14-16.31.37:197][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.01.14-16.31.37:197][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.14-16.31.37:251][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.14-16.31.37:251][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.14-16.31.37:251][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.14-16.31.37:877][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.14-16.31.37:931][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/u1118255/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-16.31.37:931][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1118255/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.01.14-16.31.37:932][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.14-16.31.37:932][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.14-16.31.37:932][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.14-16.31.37:932][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.14-16.31.37:942][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.14-16.31.37:955][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1118255/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.14-16.31.37:955][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.14-16.31.37:955][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.14-16.31.37:970][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.14-16.31.37:971][  0]LogSlate: Using FreeType 2.6.0
-[2019.01.14-16.31.37:972][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.14-16.31.38:038][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2019.01.14-16.31.38:314][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.14-16.31.38:439][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.14-16.31.38:442][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.14-16.31.38:443][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.01.14-16.31.38:443][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.14-16.31.38:443][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.14-16.31.38:456][  0]LogNetVersion: DMB_IC_WhiteBox001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3005261914)
-[2019.01.14-16.31.38:926][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092609 seconds
-[2019.01.14-16.31.38:930][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.01.14-16.31.38:930][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.01.14-16.31.38:930][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.14-16.31.39:684][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.14-16.31.39:697][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.14-16.31.39:829][  0]SourceControl: Source control is disabled
-[2019.01.14-16.31.39:829][  0]SourceControl: Source control is disabled
-[2019.01.14-16.31.39:831][  0]SourceControl: Source control is disabled
-[2019.01.14-16.31.39:832][  0]SourceControl: Source control is disabled
-[2019.01.14-16.31.39:985][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.14-16.31.40:056][  0]LogOcInput: OculusInput pre-init called
-[2019.01.14-16.31.40:111][  0]LogEngine: Initializing Engine...
-[2019.01.14-16.31.40:112][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.14-16.31.40:112][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-16.31.40:112][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-16.31.40:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-16.31.40:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-16.31.40:301][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.01.14-16.31.40:314][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.14-16.31.40:346][  0]LogInit: XAudio2 using '4 - CintiqPro24P (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.14-16.31.40:371][  0]LogInit: FAudioDevice initialized.
-[2019.01.14-16.31.40:371][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.01.14-16.31.40:453][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/u1118255/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.01.14-16.31.40:477][  0]LogInit: Texture streaming: Enabled
-[2019.01.14-16.31.40:494][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.14-16.31.40:511][  0]LogInit: Transaction tracking system initialized
-[2019.01.14-16.31.40:532][  0]BlueprintLog: New page: Editor Load
-[2019.01.14-16.31.40:607][  0]LocalizationService: Localization service is disabled
-[2019.01.14-16.31.40:838][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.14-16.31.40:838][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.14-16.31.40:838][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.14-16.31.40:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.01.14-16.31.40:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.14-16.31.40:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.01.14-16.31.40:838][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.14-16.31.40:953][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/' took 0.01s
-[2019.01.14-16.31.40:953][  0]SourceControl: Source control is disabled
-[2019.01.14-16.31.40:953][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.14-16.31.40:954][  0]LightingResults: New page: Lighting Build
-[2019.01.14-16.31.40:957][  0]MapCheck: New page: Map Check
-[2019.01.14-16.31.40:957][  0]LightingResults: New page: Lighting Build
-[2019.01.14-16.31.41:139][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.01.14-16.31.41:145][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.14-16.31.41:164][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.14-16.31.41:227][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.997ms to complete.
-[2019.01.14-16.31.41:227][  0]LogFileHelpers: Loading map 'Template_Default' took 0.274
-[2019.01.14-16.31.41:334][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.31.41:342][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.31.41:349][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.31.41:356][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.01.14-16.31.41:362][  0]LogCollectionManager: Loaded 0 collections in 0.001774 seconds
-[2019.01.14-16.31.41:403][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/Collections/' took 0.01s
-[2019.01.14-16.31.41:403][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/Developers/u1118255/Collections/' took 0.01s
-[2019.01.14-16.31.41:403][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/Collections/' took 0.01s
-[2019.01.14-16.31.41:403][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.14-16.31.41:411][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2572 classes and 603 folders.
-[2019.01.14-16.31.41:418][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.14-16.31.41:461][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.14-16.31.41:465][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.01.14-16.31.41:478][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.14-16.31.41:480][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.14-16.31.41:485][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.14-16.31.41:551][  0]LogRenderer: Reallocating scene render targets to support 1208x632 Format 10 NumSamples 1 (Frame:1).
-[2019.01.14-16.31.41:709][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.14-16.31.41:709][  0]LogLoad: (Engine Initialization) Total time: 8.15 seconds
-[2019.01.14-16.31.41:709][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.14-16.31.41:720][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-16.31.41:739][  0]LogAssetRegistry: Asset discovery search completed in 3.7234 seconds
-[2019.01.14-16.31.41:741][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.14-16.31.41:741][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
-[2019.01.14-16.31.41:743][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.14-16.31.46:546][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.31.53:258][343]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.31.53:437][359]LogAIModule: Creating AISystem for world DMB_IC_WhiteBox
-[2019.01.14-16.31.58:242][726]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.14-16.31.58:249][726]LogAssetEditorManager: Opening Asset editor for World /Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox
-[2019.01.14-16.31.58:269][726]Cmd: MAP LOAD FILE="../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/DMB_IC_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.14-16.31.58:269][726]LightingResults: New page: Lighting Build
-[2019.01.14-16.31.58:269][726]LoadErrors: New page: Loading map: DMB_IC_WhiteBox.umap
-[2019.01.14-16.31.58:270][726]MapCheck: New page: Map Check
-[2019.01.14-16.31.58:270][726]LightingResults: New page: Lighting Build
-[2019.01.14-16.31.58:295][726]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.14-16.31.58:351][726]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.14-16.31.58:413][726]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.977ms to complete.
-[2019.01.14-16.31.58:414][726]LogFileHelpers: Loading map 'DMB_IC_WhiteBox' took 0.146
-[2019.01.14-16.32.02:008][123]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.32.05:531][525]Cmd: TRANSACTION UNDO
-[2019.01.14-16.32.05:531][525]LogEditorTransaction: Undo Apply Material to Selected Surfaces
-[2019.01.14-16.32.06:355][612]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.32.13:754][435]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.32.35:994][ 42]Cmd: TRANSACTION UNDO
-[2019.01.14-16.32.35:994][ 42]LogEditorTransaction: Undo Move Actors
-[2019.01.14-16.32.36:026][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_2.BrushComponent0) Component already registered.
-[2019.01.14-16.32.36:027][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_33.BrushComponent0) Component already registered.
-[2019.01.14-16.32.36:028][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_5.BrushComponent0) Component already registered.
-[2019.01.14-16.32.36:028][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_14.BrushComponent0) Component already registered.
-[2019.01.14-16.32.36:030][ 42]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
-[2019.01.14-16.32.38:874][338]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.33.31:003][150]Cmd: TRANSACTION UNDO
-[2019.01.14-16.33.31:003][150]LogEditorTransaction: Undo Apply Material to Surface
-[2019.01.14-16.33.31:733][227]Cmd: TRANSACTION UNDO
-[2019.01.14-16.33.31:733][227]LogEditorTransaction: Undo Apply Material to Surface
-[2019.01.14-16.33.48:686][ 73]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.33.55:316][822]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.33.59:956][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.34.36:374][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.34.42:023][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.34.48:254][726]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.34.54:128][405]Cmd: TRANSACTION UNDO
-[2019.01.14-16.34.54:128][405]LogEditorTransaction: Undo Apply Material to Selected Surfaces
-[2019.01.14-16.34.57:591][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.35.15:929][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.35.33:754][676]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.35.39:073][264]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.35.43:480][737]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.35.50:521][499]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.36.09:244][526]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.36.13:779][ 20]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.36.17:660][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.37.01:191][317]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.37.02:666][481]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.37.11:333][425]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.37.15:480][907]Cmd: TRANSACTION UNDO
-[2019.01.14-16.37.15:480][907]LogEditorTransaction: Undo Apply Material to Selected Surfaces
-[2019.01.14-16.37.16:053][961]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.37.18:130][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.38.08:548][146]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.01.14-16.38.16:247][  4]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-16.38.18:229][228]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.14-16.38.19:231][228]LogSavePackage: Moving '../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/DMB_IC_WhiteBox854A2BFB4BB72B26F84955BB2322EFE6.tmp' to '../../../../../../Users/u1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/DMB_IC_WhiteBox.umap'
-[2019.01.14-16.38.19:292][228]LogFileHelpers: Saving map 'DMB_IC_WhiteBox' took 1.052
-[2019.01.14-16.38.19:994][308]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.38.20:976][420]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
-[2019.01.14-16.39.07:501][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.14-16.39.07:686][514]LogSlate: Window 'DMB_IC_WhiteBox001 - Unreal Editor' being destroyed
-[2019.01.14-16.39.07:902][515]Cmd: QUIT_EDITOR
-[2019.01.14-16.39.07:918][515]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.14-16.39.07:930][515]LogExit: Preparing to exit.
-[2019.01.14-16.39.08:966][515]LogExit: Editor shut down
-[2019.01.14-16.39.08:967][515]LogExit: Transaction tracking system shut down
+[2019.01.16-15.34.45:446][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.16-15.34.45:446][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.16-15.34.45:946][  0]LogHAL: Display: Platform has ~ 16 GB [17094557696 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.16-15.34.45:946][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.16-15.34.45:946][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.16-15.34.45:946][  0]LogInit: Computer: eae-n-015
+[2019.01.16-15.34.45:946][  0]LogInit: User: u1118255
+[2019.01.16-15.34.45:946][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.16-15.34.45:946][  0]LogInit: High frequency timer resolution =3.023440 MHz
+[2019.01.16-15.34.45:946][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.16-15.34.45:946][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.16-15.34.45:946][  0]LogMemory: Process Physical Memory: 99.49 MB used, 99.49 MB peak
+[2019.01.16-15.34.45:946][  0]LogMemory: Process Virtual Memory: 90.84 MB used, 90.84 MB peak
+[2019.01.16-15.34.45:946][  0]LogMemory: Physical Memory: 4956.42 MB used,  11346.22 MB free, 16302.64 MB total
+[2019.01.16-15.34.45:946][  0]LogMemory: Virtual Memory: 4640.71 MB used,  11346.22 MB free, 134217728.00 MB total
+[2019.01.16-15.34.45:965][  0]LogInit: Using OS detected language (en-US).
+[2019.01.16-15.34.45:965][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.16-15.34.45:966][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.16-15.34.46:283][  0]LogStreaming: Display: Took  0.318s to InitEngineTextLocalization.
+[2019.01.16-15.34.46:283][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.16-15.34.46:674][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.16-15.34.46:674][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.16-15.34.46:840][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.16-15.34.46:840][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.16-15.34.46:872][  0]LogD3D11RHI:    0. 'Radeon RX Vega M GH Graphics' (Feature Level 11_0)
+[2019.01.16-15.34.46:872][  0]LogD3D11RHI:       4042/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.01.16-15.34.46:883][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.01.16-15.34.46:883][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.16-15.34.46:884][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.16-15.34.46:884][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.16-15.34.46:884][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.16-15.34.46:891][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.16-15.34.46:891][  0]LogD3D11RHI:     GPU DeviceId: 0x694c (for the marketing name, search the web for "GPU Device Id")
+[2019.01.16-15.34.46:891][  0]LogWindows: EnumDisplayDevices:
+[2019.01.16-15.34.46:891][  0]LogWindows:    0. 'Radeon RX Vega M GH Graphics' (P:1 D:1)
+[2019.01.16-15.34.46:891][  0]LogWindows:    1. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.34.46:892][  0]LogWindows:    2. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.34.46:892][  0]LogWindows:    3. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.34.46:892][  0]LogWindows:    4. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.34.46:892][  0]LogWindows:    5. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.34.46:893][  0]LogWindows:    6. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
+[2019.01.16-15.34.46:893][  0]LogWindows:    7. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.16-15.34.46:893][  0]LogWindows:    8. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.01.16-15.34.46:893][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:7 
+[2019.01.16-15.34.46:893][  0]LogD3D11RHI:     Adapter Name: Radeon RX Vega M GH Graphics
+[2019.01.16-15.34.46:893][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.1 (internal:24.20.11026.2001, unified:24.20.11026.2001)
+[2019.01.16-15.34.46:893][  0]LogD3D11RHI:      Driver Date: 8-30-2018
+[2019.01.16-15.34.46:893][  0]LogRHI: Texture pool is 2829 MB (70% of 4042 MB)
+[2019.01.16-15.34.46:961][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.16-15.34.46:972][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2019.01.16-15.34.46:975][  0]LogShaderCompilers: Guid format shader working directory is -37 characters bigger than the processId version (../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Intermediate/Shaders/WorkingDirectory/9288/).
+[2019.01.16-15.34.46:975][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/U1118255/AppData/Local/Temp/UnrealShaderWorkingDir/488A182144EB613D66833C8A40C9530B/'.
+[2019.01.16-15.34.47:212][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.16-15.34.47:223][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.16-15.34.47:234][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.16-15.34.47:245][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.16-15.34.47:258][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.16-15.34.47:270][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.16-15.34.47:281][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.16-15.34.47:292][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.16-15.34.47:298][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:361][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:362][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.16-15.34.47:363][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.16-15.34.47:419][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.16-15.34.47:419][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.16-15.34.47:438][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.16-15.34.47:438][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.16-15.34.47:448][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.16-15.34.47:459][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.16-15.34.47:469][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.16-15.34.47:479][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.16-15.34.47:487][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.16-15.34.47:487][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.16-15.34.47:540][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.16-15.34.47:540][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.16-15.34.47:540][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.16-15.34.48:224][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.16-15.34.48:292][  0]LogDerivedDataCache: Loaded boot cache 0.07s 87MB C:/Users/U1118255/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.16-15.34.48:293][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/U1118255/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.16-15.34.48:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.16-15.34.48:293][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.16-15.34.48:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.16-15.34.48:293][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.16-15.34.48:304][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.16-15.34.48:317][  0]LogDerivedDataCache: Using Local data cache path C:/Users/U1118255/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.16-15.34.48:317][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.16-15.34.48:317][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.16-15.34.48:332][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.16-15.34.48:333][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.16-15.34.48:334][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.16-15.34.48:400][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2019.01.16-15.34.48:717][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.16-15.34.48:840][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.16-15.34.48:844][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.16-15.34.48:844][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.16-15.34.48:844][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.16-15.34.48:844][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.16-15.34.48:857][  0]LogNetVersion: DMB_IC_WhiteBox001 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3005261914)
+[2019.01.16-15.34.49:331][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.091814 seconds
+[2019.01.16-15.34.49:337][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.16-15.34.49:337][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.16-15.34.49:337][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.16-15.34.50:200][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.16-15.34.50:214][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.16-15.34.50:355][  0]SourceControl: Source control is disabled
+[2019.01.16-15.34.50:355][  0]SourceControl: Source control is disabled
+[2019.01.16-15.34.50:356][  0]SourceControl: Source control is disabled
+[2019.01.16-15.34.50:357][  0]SourceControl: Source control is disabled
+[2019.01.16-15.34.50:521][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.16-15.34.50:608][  0]LogOcInput: OculusInput pre-init called
+[2019.01.16-15.34.50:670][  0]LogEngine: Initializing Engine...
+[2019.01.16-15.34.50:671][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.16-15.34.50:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.16-15.34.50:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.16-15.34.50:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.16-15.34.50:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.16-15.34.50:894][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.16-15.34.50:909][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.16-15.34.50:937][  0]LogInit: XAudio2 using '1 - CintiqPro24P (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.16-15.34.50:951][  0]LogInit: FAudioDevice initialized.
+[2019.01.16-15.34.50:951][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.16-15.34.51:036][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/U1118255/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.16-15.34.51:054][  0]LogInit: Texture streaming: Enabled
+[2019.01.16-15.34.51:073][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.16-15.34.51:092][  0]LogInit: Transaction tracking system initialized
+[2019.01.16-15.34.51:117][  0]BlueprintLog: New page: Editor Load
+[2019.01.16-15.34.51:212][  0]LocalizationService: Localization service is disabled
+[2019.01.16-15.34.51:472][  0]LogFileCache: Scanning file cache for directory 'C:/Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/' took 0.01s
+[2019.01.16-15.34.51:472][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.16-15.34.51:472][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.16-15.34.51:472][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.16-15.34.51:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.16-15.34.51:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.16-15.34.51:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.16-15.34.51:473][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.16-15.34.51:608][  0]SourceControl: Source control is disabled
+[2019.01.16-15.34.51:608][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.16-15.34.51:608][  0]LightingResults: New page: Lighting Build
+[2019.01.16-15.34.51:611][  0]MapCheck: New page: Map Check
+[2019.01.16-15.34.51:612][  0]LightingResults: New page: Lighting Build
+[2019.01.16-15.34.51:809][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.16-15.34.51:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.16-15.34.51:839][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.16-15.34.51:911][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.023ms to complete.
+[2019.01.16-15.34.51:911][  0]LogFileHelpers: Loading map 'Template_Default' took 0.302
+[2019.01.16-15.34.51:999][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.34.52:006][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.34.52:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.34.52:021][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.16-15.34.52:027][  0]LogCollectionManager: Loaded 0 collections in 0.001610 seconds
+[2019.01.16-15.34.52:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/Collections/' took 0.01s
+[2019.01.16-15.34.52:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/Developers/u1118255/Collections/' took 0.01s
+[2019.01.16-15.34.52:070][  0]LogFileCache: Scanning file cache for directory 'C:/Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/Collections/' took 0.01s
+[2019.01.16-15.34.52:070][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.16-15.34.52:078][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2572 classes and 603 folders.
+[2019.01.16-15.34.52:085][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.16-15.34.52:136][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.16-15.34.52:141][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.01.16-15.34.52:154][  0]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.16-15.34.52:157][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.16-15.34.52:162][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.16-15.34.52:240][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.16-15.34.52:355][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.34.52:368][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.16-15.34.52:401][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.16-15.34.52:401][  0]LogLoad: (Engine Initialization) Total time: 8.73 seconds
+[2019.01.16-15.34.52:401][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.16-15.34.52:434][  0]LogAssetRegistry: Asset discovery search completed in 4.0563 seconds
+[2019.01.16-15.34.52:436][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.16-15.34.52:436][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2019.01.16-15.34.52:438][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.16-15.35.26:041][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.35.26:177][225]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.16-15.35.26:364][225]LogMaterial: Display: Missing cached shader map for material DMB_M_WBox_1, compiling. 
+[2019.01.16-15.35.26:417][225]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.16-15.35.26:417][225]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.16-15.35.26:417][225]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-15.35.26:417][225]LogAIModule: Creating AISystem for world DMB_IC_WhiteBox
+[2019.01.16-15.35.26:494][225]LogAssetEditorManager: Opening Asset editor for World /Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox
+[2019.01.16-15.35.26:519][225]Cmd: MAP LOAD FILE="../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/DMB_IC_WhiteBox.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.16-15.35.26:520][225]LightingResults: New page: Lighting Build
+[2019.01.16-15.35.26:520][225]LoadErrors: New page: Loading map: DMB_IC_WhiteBox.umap
+[2019.01.16-15.35.26:521][225]MapCheck: New page: Map Check
+[2019.01.16-15.35.26:521][225]LightingResults: New page: Lighting Build
+[2019.01.16-15.35.26:554][225]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.16-15.35.26:641][225]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.16-15.35.26:705][225]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.806ms to complete.
+[2019.01.16-15.35.26:707][225]LogFileHelpers: Loading map 'DMB_IC_WhiteBox' took 0.189
+[2019.01.16-15.35.38:024][508]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-15.35.56:433][636]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-15.36.16:010][892]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-15.40.10:392][874]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.40.17:825][614]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-15.40.26:037][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.41.12:537][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.41.28:555][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.41.38:421][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.41.51:142][509]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.41.54:881][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.44.55:282][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.45.06:392][863]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\U1118255\Downloads\mann.obj)
+[2019.01.16-15.45.06:404][863]LogFbx: Loading FBX Scene from C:\Users\U1118255\Downloads\mann.obj
+[2019.01.16-15.45.06:480][863]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.16-15.45.12:759][863]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.16-15.45.12:963][863]LogMaterial: Display: Missing cached shader map for material SM_hatMat, compiling. 
+[2019.01.16-15.45.12:977][863]LogFbx: Warning: Triangulating static mesh SM_hat
+[2019.01.16-15.45.13:391][863]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.16-15.45.13:391][863]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.16-15.45.13:391][863]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-15.45.13:447][863]LogStaticMesh: Building static mesh mann...
+[2019.01.16-15.45.13:586][863]LogStaticMesh: Built static mesh [0.14s] /Game/mann.mann
+[2019.01.16-15.45.14:846][927]LogActorFactory: Actor Factory created mann
+[2019.01.16-15.45.15:662][995]LogActorFactory: Actor Factory created mann
+[2019.01.16-15.45.25:905][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.45.55:959][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.46.05:225][395]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-15.46.16:167][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
+[2019.01.16-15.46.26:299][783]Cmd: EDCALLBACK SURFPROPS
+[2019.01.16-15.46.27:095][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
+[2019.01.16-15.46.39:260][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.46.42:247][480]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-15.46.46:363][948]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-15.46.47:802][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.46.50:469][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.46.54:450][799]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-15.47.14:236][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.47.35:591][579]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush_Wall)
+[2019.01.16-15.47.38:176][878]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-15.47.40:603][150]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.47.45:796][747]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-15.47.46:899][864]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.48.06:090][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.48.08:848][421]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.48.12:239][810]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-15.48.51:709][253]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.49.15:667][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.49.24:740][ 39]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-15.49.45:800][361]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-15.49.55:468][483]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-15.50.25:638][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.50.55:397][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.51.05:650][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.51.29:486][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.51.41:310][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.51.46:230][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.51.59:970][ 15]Cmd: DELETE
+[2019.01.16-15.51.59:970][ 15]Cmd: ACTOR DELETE
+[2019.01.16-15.52.00:005][ 15]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-15.52.00:241][ 15]LogEditorActor: Deleted 1 Actors (0.271 secs)
+[2019.01.16-15.52.01:110][ 91]Cmd: DELETE
+[2019.01.16-15.52.01:110][ 91]Cmd: ACTOR DELETE
+[2019.01.16-15.52.01:131][ 91]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-15.52.01:343][ 91]LogEditorActor: Deleted 1 Actors (0.233 secs)
+[2019.01.16-15.52.10:155][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.52.17:387][869]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.52.24:172][626]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-15.52.28:139][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.52.45:624][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.52.56:837][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.53.08:985][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.53.46:843][220]Cmd: DELETE
+[2019.01.16-15.53.46:843][220]Cmd: ACTOR DELETE
+[2019.01.16-15.53.46:873][220]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-15.53.47:095][220]LogEditorActor: Deleted 1 Actors (0.251 secs)
+[2019.01.16-15.53.49:405][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.53.53:384][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.53.54:310][ 58]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-15.53.56:319][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.54.26:221][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.54.41:162][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.56.00:686][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.56.10:682][894]LogEditorViewport: Clicking Background
+[2019.01.16-15.56.16:210][549]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-15.56.36:191][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.56.44:884][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.57.02:131][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.57.04:566][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.57.10:393][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.57.49:473][815]Cmd: TRANSACTION UNDO
+[2019.01.16-15.57.49:473][815]LogEditorTransaction: Undo Move Actors
+[2019.01.16-15.57.49:684][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_246.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:684][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_133.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:685][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_120.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:686][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_243.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:686][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_165.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:686][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_160.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:687][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_247.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:687][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_147.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:687][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_152.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:687][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_103.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:687][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_108.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:688][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_111.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:688][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_94.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:688][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_89.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:689][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_34.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:689][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_39.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:689][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_44.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:689][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_25.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:689][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_116.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:689][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_30.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:690][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush43.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:690][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush38.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:690][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush48.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:691][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush25.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:691][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush30.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:691][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush35.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:691][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush70.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:692][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush65.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:692][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:693][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush52.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:693][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush57.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:693][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:693][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_58.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:694][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_170.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:695][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:695][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush15.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:696][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_71.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:697][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:697][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush26.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:698][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush22.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:698][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.GroupActor_9.GroupComponent) Component already registered.
+[2019.01.16-15.57.49:711][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_4.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:711][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_60.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:711][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_54.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:712][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_75.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:712][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush3.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:712][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_19.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:713][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_99.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:713][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:713][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_86.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:713][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_91.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:713][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_62.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:714][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_72.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:714][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_1.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:715][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_6.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:715][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_15.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:716][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_67.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:716][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_35.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:717][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_18.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:717][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_53.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:717][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_11.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:718][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush153.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:718][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush158.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:719][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush144.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:719][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush139.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:720][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush180.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:720][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush171.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:720][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush166.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:721][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush97.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:721][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush92.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:721][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush102.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:721][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush79.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:722][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush84.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:722][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush89.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:722][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush185.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:722][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:722][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush119.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:722][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:723][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:723][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:723][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush116.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:724][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush5.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:724][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:724][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush7.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:724][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:725][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Wall2.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:725][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush11.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:725][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush11.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:726][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush203.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:726][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush208.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:726][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush190.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:727][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush227.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:727][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush232.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:728][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush235.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:728][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush218.BrushComponent0) Component already registered.
+[2019.01.16-15.57.49:728][815]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush213.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:528][874]Cmd: TRANSACTION UNDO
+[2019.01.16-15.57.50:528][874]LogEditorTransaction: Undo Move Actors
+[2019.01.16-15.57.50:720][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_44.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:723][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_26.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:727][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_159.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:728][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_31.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:730][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Fence6.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:742][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_64.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:743][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_55.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:745][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_50.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:747][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush213.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:748][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush164.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:751][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush231.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:751][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush222.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:753][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush57.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:756][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush39.BrushComponent0) Component already registered.
+[2019.01.16-15.57.50:760][874]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush106.BrushComponent0) Component already registered.
+[2019.01.16-15.58.30:852][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-15.58.30:904][199]Cmd: MODE GRID=0
+[2019.01.16-15.58.54:520][102]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-15.58.56:600][325]Cmd: TRANSACTION UNDO
+[2019.01.16-15.58.56:600][325]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.16-15.58.57:528][409]Cmd: TRANSACTION UNDO
+[2019.01.16-15.58.57:528][409]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.16-15.58.58:026][451]Cmd: TRANSACTION UNDO
+[2019.01.16-15.58.58:026][451]LogEditorTransaction: Undo Clicking on Actors
+[2019.01.16-15.58.58:418][483]Cmd: TRANSACTION UNDO
+[2019.01.16-15.58.58:418][483]LogEditorTransaction: Undo Select Brush Surface
+[2019.01.16-15.58.58:720][507]Cmd: TRANSACTION UNDO
+[2019.01.16-15.58.58:721][507]LogEditorTransaction: Undo Apply Material to Surface
+[2019.01.16-15.58.59:210][549]Cmd: TRANSACTION UNDO
+[2019.01.16-15.58.59:210][549]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.01.16-15.58.59:805][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush26.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:806][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush29.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:806][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Fence6.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:806][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush28.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:808][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush21.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:811][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush208.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:811][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush211.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:812][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush202.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:812][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush205.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:813][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush197.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:815][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_70.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:815][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_73.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:816][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_64.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:816][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_91.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:817][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_48.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:817][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_42.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:817][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_117.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:817][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_243.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:818][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_128.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:818][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_242.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:818][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_122.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:819][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_36.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:821][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Wall8.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:833][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_58.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:833][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:833][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_61.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:833][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_76.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:834][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_79.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:834][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_52.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:834][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_55.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:835][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_19.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:838][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:838][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush114.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:839][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:839][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush108.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:841][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush100.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:844][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush14.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:844][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush17.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:844][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush8.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:844][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush11.BrushComponent0) Component already registered.
+[2019.01.16-15.58.59:846][549]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_73.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:288][632]Cmd: TRANSACTION UNDO
+[2019.01.16-15.59.01:288][632]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.01.16-15.59.01:964][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:964][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:970][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:971][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_24.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:971][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_35.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:975][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_164.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:976][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_175.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:990][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_11.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:991][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_83.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:997][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush116.BrushComponent0) Component already registered.
+[2019.01.16-15.59.01:998][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush212.BrushComponent0) Component already registered.
+[2019.01.16-15.59.02:002][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush5.BrushComponent0) Component already registered.
+[2019.01.16-15.59.02:005][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2019.01.16-15.59.02:005][632]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush53.BrushComponent0) Component already registered.
+[2019.01.16-15.59.09:046][346]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-15.59.28:957][441]Cmd: DELETE
+[2019.01.16-15.59.28:957][441]Cmd: ACTOR DELETE
+[2019.01.16-15.59.29:035][441]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-15.59.29:391][441]LogEditorActor: Deleted 1 Actors (0.434 secs)
+[2019.01.16-16.00.02:896][974]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.00.24:429][365]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.00.35:353][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.00.43:393][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.00.49:553][897]Cmd: TRANSACTION UNDO
+[2019.01.16-16.00.49:553][897]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.00.49:750][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_146.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:752][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_170.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:753][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_46.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:755][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush27.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:755][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush13.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:757][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_68.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:759][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_37.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:772][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_5.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:773][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_12.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:776][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_78.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:777][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_84.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:780][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush220.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:784][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush25.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:787][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush109.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:792][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush191.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:793][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush133.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:793][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush162.BrushComponent0) Component already registered.
+[2019.01.16-16.00.49:794][897]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush148.BrushComponent0) Component already registered.
+[2019.01.16-16.00.51:170][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.01.05:089][315]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.01.06:947][514]Cmd: EDCALLBACK SURFPROPS
+[2019.01.16-16.01.08:039][641]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.01.08:039][641]Can't find target actor or component.
+[2019.01.16-16.01.09:385][801]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.01.10:985][980]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.01.17:251][722]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.01.17:791][781]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.01.24:163][486]Cmd: DELETE
+[2019.01.16-16.01.24:163][486]Cmd: ACTOR DELETE
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:199][486]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.01.24:459][486]LogEditorActor: Deleted 11 Actors (0.295 secs)
+[2019.01.16-16.01.48:608][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.02.08:281][319]Cmd: DELETE
+[2019.01.16-16.02.08:281][319]Cmd: ACTOR DELETE
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:309][319]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Brush_Fence10.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush46.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush47.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush48.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush49.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush50.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush46.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush47.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush48.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush49.
+[2019.01.16-16.02.08:310][319]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush50.
+[2019.01.16-16.02.20:061][319]LogSlate: Window 'Message' being destroyed
+[2019.01.16-16.02.20:065][319]LogEditorActor: Deleted Actor: GroupActor
+[2019.01.16-16.02.20:312][319]LogEditorActor: Deleted 12 Actors (12.031 secs)
+[2019.01.16-16.02.23:172][627]Cmd: TRANSACTION UNDO
+[2019.01.16-16.02.23:172][627]LogEditorTransaction: Undo Delete Actors
+[2019.01.16-16.02.23:376][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_147.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:377][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_38.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:384][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_39.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:405][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_15.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:406][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_81.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:407][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_75.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:410][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush12.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:412][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush220.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:415][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Wall12.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:417][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Fence5.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:419][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush100.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:421][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush76.BrushComponent0) Component already registered.
+[2019.01.16-16.02.23:425][627]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2019.01.16-16.02.24:954][628]LogSavePackage: Moving '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/DMB_IC_WhiteBox_Auto125D57A4C48FDF8E04CB6F2AC1C578C29.tmp' to '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/Autosaves/Game/DMB_IC_WhiteBox_Auto1.umap'
+[2019.01.16-16.02.24:966][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DMB_IC_WhiteBox' took 1.332
+[2019.01.16-16.02.24:966][628]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.332
+[2019.01.16-16.02.24:971][628]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SM_hatMat] ([1] browsable assets)...
+[2019.01.16-16.02.25:003][628]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SM_hatMat.SM_hatMat]
+[2019.01.16-16.02.25:003][628]OBJ SavePackage: Finished generating thumbnails for package [/Game/SM_hatMat]
+[2019.01.16-16.02.25:019][628]LogSavePackage: Moving '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/SM_hatMat_Auto192E5BC7E498C92384AF9548CEFB66286.tmp' to '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/Autosaves/Game/SM_hatMat_Auto1.uasset'
+[2019.01.16-16.02.25:021][628]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/mann] ([1] browsable assets)...
+[2019.01.16-16.02.25:042][628]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/mann.mann]
+[2019.01.16-16.02.25:042][628]OBJ SavePackage: Finished generating thumbnails for package [/Game/mann]
+[2019.01.16-16.02.25:042][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/Autosaves/Game/mann_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.01.16-16.02.25:059][628]LogSavePackage: Moving '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/mann_Auto1B8EEC0594C8FB3C88B624481D2BD9160.tmp' to '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/Autosaves/Game/mann_Auto1.uasset'
+[2019.01.16-16.02.25:060][628]LogFileHelpers: Auto-saving content packages took 0.089
+[2019.01.16-16.02.30:081][196]Cmd: DELETE
+[2019.01.16-16.02.30:081][196]Cmd: ACTOR DELETE
+[2019.01.16-16.02.30:108][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Brush_Fence10.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush46.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush47.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush48.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush49.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cylinder Brush50.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush46.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush47.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush48.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush49.
+[2019.01.16-16.02.30:109][196]LogEditorActor: Actor GroupActor_15 is referenced by Cone Brush50.
+[2019.01.16-16.02.30:114][196]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.02.32:206][196]LogSlate: Window 'Message' being destroyed
+[2019.01.16-16.02.32:460][196]LogEditorActor: Deleted 11 Actors (2.380 secs)
+[2019.01.16-16.02.33:694][311]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.02.39:677][972]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.02.41:148][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.02.47:271][866]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.02.48:271][980]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.03.00:848][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.03.01:846][324]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.03.05:702][755]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.03.51:446][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.04.09:614][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.04.26:521][580]Cmd: DELETE
+[2019.01.16-16.04.26:521][580]Cmd: ACTOR DELETE
+[2019.01.16-16.04.26:550][580]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.04.26:817][580]LogEditorActor: Deleted 1 Actors (0.296 secs)
+[2019.01.16-16.04.33:752][255]Cmd: DELETE
+[2019.01.16-16.04.33:752][255]Cmd: ACTOR DELETE
+[2019.01.16-16.04.33:779][255]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.04.34:032][255]LogEditorActor: Deleted 1 Actors (0.280 secs)
+[2019.01.16-16.04.47:548][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.04.55:345][522]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.05.04:420][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.05.13:386][405]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.05.22:608][429]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.05.53:078][ 12]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.06.01:499][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
+[2019.01.16-16.07.02:446][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.07.05:411][845]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.07.07:675][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.07.17:199][128]Cmd: TRANSACTION UNDO
+[2019.01.16-16.07.17:199][128]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.07.17:389][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_143.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:391][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_162.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:393][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_124.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:394][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:395][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush42.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:396][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_55.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:397][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_74.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:415][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_116.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:416][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_106.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:418][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush6_30.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:420][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush218.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:421][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush14.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:422][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush39.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:424][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush22.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:425][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush99.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:426][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush118.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:427][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush61.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:428][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush80.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:429][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush175.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:430][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush194.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:431][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush137.BrushComponent0) Component already registered.
+[2019.01.16-16.07.17:432][128]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush156.BrushComponent0) Component already registered.
+[2019.01.16-16.07.26:390][ 89]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.08.08:399][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.08.20:262][473]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.08.37:951][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.09.01:549][506]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.16-16.09.24:427][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.09.54:911][295]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.10.30:740][ 38]Cmd: TRANSACTION UNDO
+[2019.01.16-16.10.30:740][ 38]LogEditorTransaction: Undo Snap Actors To Floor
+[2019.01.16-16.10.30:936][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_169.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:937][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_50.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:939][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush45.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:957][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_5.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:958][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_103.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:960][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_61.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:963][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush6.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:966][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush237.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:969][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush19.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:972][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush112.BrushComponent0) Component already registered.
+[2019.01.16-16.10.30:973][ 38]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush69.BrushComponent0) Component already registered.
+[2019.01.16-16.10.51:760][337]Cmd: DELETE
+[2019.01.16-16.10.51:760][337]Cmd: ACTOR DELETE
+[2019.01.16-16.10.51:809][337]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.10.52:107][337]LogEditorActor: Deleted 1 Actors (0.346 secs)
+[2019.01.16-16.11.21:304][448]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.11.37:300][237]Cmd: EDCALLBACK SURFPROPS
+[2019.01.16-16.11.38:562][386]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.11.39:378][472]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.12.03:356][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.12.04:960][337]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.12.14:653][484]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.12.39:386][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.12.52:650][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.13.11:107][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.13.48:270][554]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.13.56:961][462]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.14.07:414][629]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.14.31:277][876]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
+[2019.01.16-16.14.38:357][702]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.14.57:728][993]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.15.18:987][276]Cmd: DELETE
+[2019.01.16-16.15.18:987][276]Cmd: ACTOR DELETE
+[2019.01.16-16.15.19:029][276]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.19:320][276]LogEditorActor: Deleted 1 Actors (0.332 secs)
+[2019.01.16-16.15.32:960][791]Cmd: DELETE
+[2019.01.16-16.15.32:960][791]Cmd: ACTOR DELETE
+[2019.01.16-16.15.32:988][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.32:989][791]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.15.33:238][791]LogEditorActor: Deleted 11 Actors (0.278 secs)
+[2019.01.16-16.15.34:010][861]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.15.49:669][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
+[2019.01.16-16.16.09:964][983]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.16.11:649][141]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.16.14:256][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.16.54:267][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.17.37:838][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.17.48:555][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.18.01:845][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.18.03:527][909]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.18.05:503][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.18.34:803][138]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-16.18.41:773][900]Cmd: EDCALLBACK SURFPROPS
+[2019.01.16-16.18.47:426][513]Cmd: TRANSACTION UNDO
+[2019.01.16-16.18.47:426][513]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.18.47:628][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_156.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:629][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_32.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:630][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_127.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:631][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush18.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:632][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush47.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:637][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_7.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:653][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_10.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:658][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_70.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:660][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:661][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Wall8.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:665][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush39.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:668][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Fence6.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:669][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush105.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:671][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush129.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:671][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush71.BrushComponent0) Component already registered.
+[2019.01.16-16.18.47:673][513]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush187.BrushComponent0) Component already registered.
+[2019.01.16-16.18.48:867][618]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.18.58:245][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.19.02:163][ 95]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.19.05:727][435]Cmd: TRANSACTION UNDO
+[2019.01.16-16.19.05:727][435]LogEditorTransaction: Undo Move Actors
+[2019.01.16-16.19.05:939][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush23.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:940][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush10.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:940][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush49.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:941][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush36.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:942][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_167.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:942][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_154.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:943][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_67.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:944][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_54.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:944][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush124.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:944][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush130.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:945][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush111.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:945][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush117.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:945][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush150.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:946][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush156.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:946][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush131.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:946][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush137.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:946][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush143.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:947][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush75.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:948][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush62.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:948][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush101.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:949][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush88.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:950][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush4.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:950][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_17.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:951][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_91.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:952][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_54.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:965][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_57.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:966][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_5.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:967][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_49.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:968][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_36.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:968][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_141.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:969][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_128.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:970][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_93.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:970][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_80.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:971][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Sidewalk_23.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:972][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Street_139.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:972][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush228.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:972][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush234.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:973][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush215.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:973][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush221.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:974][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.ConeBrush5.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:974][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:974][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush235.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:974][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.Brush_Wall3.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:975][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:975][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush176.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:975][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush182.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:976][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush157.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:976][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush163.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:976][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush169.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:976][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush202.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:977][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush208.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:977][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush183.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:977][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush189.BrushComponent0) Component already registered.
+[2019.01.16-16.19.05:977][435]LogActorComponent: ~FComponentReregisterContext: (/Game/DMB_IC_WhiteBox.DMB_IC_WhiteBox:PersistentLevel.BoxBrush195.BrushComponent0) Component already registered.
+[2019.01.16-16.19.07:222][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.19.39:558][ 44]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.19.44:556][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.19.45:899][751]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.19.47:729][954]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.20.29:291][218]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2019.01.16-16.20.58:908][457]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.20.59:994][457]LogSavePackage: Moving '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/DMB_IC_WhiteBox_Auto2895370404685B01365CF43BF79889133.tmp' to '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/Autosaves/Game/DMB_IC_WhiteBox_Auto2.umap'
+[2019.01.16-16.21.00:000][457]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DMB_IC_WhiteBox' took 1.082
+[2019.01.16-16.21.00:000][457]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.082
+[2019.01.16-16.21.59:438][671]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.16-16.22.12:304][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.22.12:361][105]Cmd: MODE GRID=1
+[2019.01.16-16.22.31:214][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.22.41:069][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.22.49:194][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.23.01:413][279]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.23.01:464][285]Cmd: MODE GRID=0
+[2019.01.16-16.23.16:085][903]Cmd: DELETE
+[2019.01.16-16.23.16:085][903]Cmd: ACTOR DELETE
+[2019.01.16-16.23.16:118][903]LogEditorActor: Deleted Actor: Brush
+[2019.01.16-16.23.16:392][903]LogEditorActor: Deleted 1 Actors (0.307 secs)
+[2019.01.16-16.23.25:709][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.23.34:554][767]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.23.45:175][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.24.00:237][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-16.24.58:661][878]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.24.59:879][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-16.25.00:963][ 18]LogSavePackage: Moving '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/DMB_IC_WhiteBox0268E5F04F0B6FA426A1F08C8C89F9F5.tmp' to '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/DMB_IC_WhiteBox.umap'
+[2019.01.16-16.25.01:021][ 18]LogFileHelpers: Saving map 'DMB_IC_WhiteBox' took 1.126
+[2019.01.16-16.25.01:030][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_hatMat" FILE="../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/SM_hatMat.uasset" SILENT=true
+[2019.01.16-16.25.01:038][ 18]LogSavePackage: Moving '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/SM_hatMat15C86E2A4647CF659E8878BC8DC5831F.tmp' to '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/SM_hatMat.uasset'
+[2019.01.16-16.25.01:045][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/mann.uasset" SILENT=true
+[2019.01.16-16.25.01:054][ 18]LogSavePackage: Moving '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Saved/mannD633DC034C799BE7B4A2FB8BFFCA1279.tmp' to '../../../../../../Users/U1118255/Documents/GitHub/DMB_AssetPipeline/DMB_IC_WhiteBox001/Content/mann.uasset'
